@@ -35,7 +35,7 @@ void main()
                        fprintf(f3,"%d %s %s %s",locctr,lab,opcode,opa);
                        locctr=locctr+3;
                     }  
-                
+            
 
             }
         }
