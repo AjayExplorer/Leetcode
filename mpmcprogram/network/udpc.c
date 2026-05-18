@@ -26,7 +26,7 @@ int main() {
     // 3. Get input
     printf("Enter the number: ");
     fgets(buff, 100, stdin);
-
+  
     // 4. Send data
     sendto(sock_desc, buff, strlen(buff), 0,
            (struct sockaddr*)&server, sizeof(server));
